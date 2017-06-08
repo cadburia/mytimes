@@ -44,7 +44,6 @@ header nav {
 
 main {
   display: flex;
-  flex-direction: column;
   border: 1px solid black;
   padding-top: 80px;
 }
