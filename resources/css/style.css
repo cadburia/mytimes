@@ -59,6 +59,7 @@ div {
 
 .column.large {
   width: 630px;
+
 }
 
 .column.medium {
@@ -69,10 +70,39 @@ div {
   width: 240px;
 }
 
-#headline-picture {
-  width: 100%;
+.picture {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
 }
 
-#lead-story {
+.picture.headline {
+  font-size: 40px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
 
+.picture.seasonal {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+.picture.culture {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.picture.funny {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.story,
+#lead-story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
 }
