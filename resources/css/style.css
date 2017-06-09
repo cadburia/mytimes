@@ -44,22 +44,17 @@ header nav {
 
 main {
   display: flex;
-  border: 1px solid black;
-  padding-top: 80px;
+  padding-top: 110px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-}
-
-div {
-  border: 1px solid black;
+  margin-right: 30px;
 }
 
 .column.large {
   width: 630px;
-
 }
 
 .column.medium {
@@ -76,10 +71,12 @@ div {
   font-size: 30px;
   color: white;
   height: 300px;
+  text-align: center;
 }
 
 .picture.headline {
   font-size: 40px;
+  text-align: left;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
 }
 
@@ -105,4 +102,15 @@ div {
 .story {
   display: flex;
   flex-direction: column;
+  width: 300px;
+}
+
+.stories {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.stories .text {
+  height: 250px;
 }
